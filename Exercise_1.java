@@ -7,7 +7,8 @@ class Stack {
   
     boolean isEmpty() 
     { 
-        //Write your code here 
+        //Write your code here
+        return false;
     } 
 
     Stack() 
@@ -19,17 +20,21 @@ class Stack {
     { 
         //Check for stack Overflow
         //Write your code here
+        return false;
     } 
   
     int pop() 
     { 
         //If empty return 0 and print " Stack Underflow"
         //Write your code here
+        return -1;
+
     } 
   
     int peek() 
     { 
         //Write your code here
+        return 0;
     } 
 } 
   
