@@ -17,7 +17,7 @@ class Stack {
   
     boolean push(int x) 
     { 
-        if(a[top] >=MAX-1) {
+        if(top >=MAX-1) {
             return false;
         }
         else{
